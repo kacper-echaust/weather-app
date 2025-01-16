@@ -19,6 +19,7 @@
 .darkMode {
 	background-color: transparent;
 	border-bottom: 2px solid white;
+	color: white;
 }
 .darkMode::placeholder {
 	color: rgba(255, 255, 255, 0.7);

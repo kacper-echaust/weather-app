@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://kacper-echaust.github.io/weather-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +55,7 @@
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.1",
-    "typescript": "^5.1.6"
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.7.3"
   }
 }
